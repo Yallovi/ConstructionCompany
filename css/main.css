@@ -540,7 +540,13 @@ body {
   .contacts-block {
     display: none;
   }
+  .footer-news__form__button {
+    padding-right: 8px;
+  }
   .footer-social {
+    text-align: center;
+  }
+  .footer-copyright {
     text-align: center;
   }
 }
