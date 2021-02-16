@@ -1,0 +1,85 @@
+.projects
+    padding-top: 50px
+    padding-bottom: 40px
+    background: #F4F4F4
+    color: #000
+    &-subtitle
+        text-align: center
+        font-weight: 500
+        font-size: 24px
+        line-height: 29px
+        color: $color-text-light
+    &-title
+        text-align: center
+        color: #000
+        font-weight: bold
+        font-size: 34px
+        line-height: 41px
+        &::after
+            content: ''
+            display: block
+            height: 3px
+            padding-top: 30px
+            background: url('../img/projects/border.png') center no-repeat
+    &-text
+        text-align: center
+        padding-top: 20px
+        font-weight: normal
+        font-size: 16px
+        line-height: 20px
+        &__dark
+           font-weight: bold
+            font-size: 16px
+            line-height: 20px 
+    .slider
+        .swiper
+            &-pagination
+                position: relative
+                margin-top: 30px
+                &-bullet
+                    background: url('../img/projects/dots.svg') center no-repeat
+                    width: 20px
+                    height: 20px
+                    margin-top: 30px
+        .slide
+            &-card
+                background-color: #fff
+                &-image
+                        width: 100%
+                &-info
+                    padding-top: 26px
+                    padding-left: 32px
+                    padding-bottom: 20px
+                    padding-right: 31px
+                    &__title
+                        display: block
+                        font-weight: bold
+                        font-size: 16px
+                        line-height: 20px
+                    &__subtitle
+                        display: block
+                        font-weight: bold
+                        font-size: 16px
+                        line-height: 20px  
+                        color: $color-text-light  
+                    &__descr
+                        font-weight: normal
+                        font-size: 16px
+                        line-height: 1.4
+                        max-width: 307px
+                    &__link
+                        text-decoration: none 
+                        font-weight: bold
+                        font-size: 16px
+                        line-height: 20px
+                        color: #000
+                        &::after
+                            content: ''
+                            display: inline-block
+                            width: 10px
+                            height: 8.75px
+                            background: url('../img/projects/arrow.svg') center no-repeat
+                            padding-left: 20px
+                             
+        
+       

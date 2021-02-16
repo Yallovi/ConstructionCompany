@@ -1,0 +1,76 @@
+.main
+    background: url('../img/header-bg.jpg') no-repeat
+    // padding-bottom: 333px
+    min-height: 820px
+    color: #fff
+.header
+    padding-top: 20px
+    padding-bottom: 15px
+    color: #fff
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+    &-info
+     display: flex  
+     align-items: center
+     &__icon
+         margin-right: 10px
+     &__phone
+         text-decoration: none
+         color: $active-color
+         font-weight: bold
+         font-size: 16px
+         line-height: 20px
+         text-transform: uppercase
+.navigation
+    list-style: none
+    margin: 0
+    padding: 0
+    &-link
+        text-decoration: none
+        font-weight: bold
+        font-size: 16px
+        line-height: 20px
+        text-transform: uppercase
+        color: #fff
+        position: relative
+    &-link::after
+        display: block
+        position: absolute
+        content: ''
+        height: 2px
+        width: 0
+        background-color: $active-color
+        transition: width .3s ease-in-out
+        bottom: -28px
+    &-link:hover:after,
+    &-link:focus:after
+        width: 100%
+            
+.main
+    &-title
+        padding-top: 129px
+        font-weight: bold
+        font-size: 48px
+        line-height: 59px
+        text-transform: uppercase
+        color: #fff
+        margin: 0
+    &-text
+        font-weight: normal
+        font-size: 32px
+        line-height: 39px
+        margin: 0
+        padding-top: 10px
+.button
+    margin-top: 50px    
+    background: $color-text-light
+    color: #fff
+    padding-top: 12px
+    padding-left: 21px
+    padding-bottom: 12px
+    padding-right: 22px
+    font-size: 24px
+    border: none
+    cursor: pointer
+    border-radius: 2px
+    
+    
