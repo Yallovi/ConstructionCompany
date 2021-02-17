@@ -9,6 +9,7 @@
         padding-left: 31px
         padding-bottom: 39px
         padding-left: 32px
+        color: #000
         cursor: pointer
         &-image
             display: block
@@ -17,13 +18,47 @@
             font-weight: bold
             font-size: 16px
             line-height: 20px
-            color: #000000
         &-text
             margin-top: 20px
             font-weight: normal
             font-size: 16px
             line-height: 20px
-            color: #000000
+        .card-1
+            &-logo
+                background: url('../img/about/card-1.svg') no-repeat
+                width: 50px
+                height: 50px
+                margin-bottom: 20px
+        .card-2
+            &-logo
+                background: url('../img/about/card-2.svg') no-repeat
+                width: 50px
+                height: 50px
+                margin-bottom: 20px
+        .card-3
+            &-logo
+                background: url('../img/about/card-1.svg') no-repeat
+                width: 50px
+                height: 50px
+                margin-bottom: 20px
+        .card-4
+            &-logo
+                background: url('../img/about/card-4.svg') no-repeat
+                width: 50px
+                height: 50px
+                margin-bottom: 20px
+    .card:hover 
+        color: #fff
+        background: $color-text-light
+        transform: scale(1.1)
+    .card:hover .card-1-logo
+        background: url('../img/about/card-1-white.svg') no-repeat
+    .card:hover .card-2-logo
+        background: url('../img/about/card-1-white.svg') no-repeat
+    .card:hover .card-3-logo
+        background: url('../img/about/card-1-white.svg') no-repeat
+    .card:hover .card-4-logo
+        background: url('../img/about/card-1-white.svg') no-repeat
     &-subtitle
         text-align: center
         padding-top: 63px

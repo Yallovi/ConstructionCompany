@@ -1,11 +1,20 @@
 @media ( max-width: 992px )
     .sertificates
         text-align: center
+        &-info
+            &__title
+                font-size: 27px
         .slider
             .swiper
                 &-pagination
                     &-bullet
-                        display: none
+                        // display: none
+    .slider
+        .swiper
+            &-pagination
+                &-bullet
+                    &:focus
+                        outline: none
     .footer
         &-news
             &__form

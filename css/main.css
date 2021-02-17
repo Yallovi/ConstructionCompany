@@ -114,6 +114,7 @@ body {
   padding-left: 31px;
   padding-bottom: 39px;
   padding-left: 32px;
+  color: #000;
   cursor: pointer;
 }
 
@@ -126,7 +127,6 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #000000;
 }
 
 .about .card-text {
@@ -134,7 +134,56 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: #000000;
+}
+
+.about .card .card-1-logo {
+  background: url("../img/about/card-1.svg") no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.about .card .card-2-logo {
+  background: url("../img/about/card-2.svg") no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.about .card .card-3-logo {
+  background: url("../img/about/card-1.svg") no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.about .card .card-4-logo {
+  background: url("../img/about/card-4.svg") no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.about .card:hover {
+  color: #fff;
+  background: #F47D0E;
+  transform: scale(1.1);
+}
+
+.about .card:hover .card-1-logo {
+  background: url("../img/about/card-1-white.svg") no-repeat;
+}
+
+.about .card:hover .card-2-logo {
+  background: url("../img/about/card-1-white.svg") no-repeat;
+}
+
+.about .card:hover .card-3-logo {
+  background: url("../img/about/card-1-white.svg") no-repeat;
+}
+
+.about .card:hover .card-4-logo {
+  background: url("../img/about/card-1-white.svg") no-repeat;
 }
 
 .about-subtitle {
@@ -348,6 +397,11 @@ body {
   max-height: 348px;
 }
 
+.sertificates .slider .swiper-pagination {
+  position: relative;
+  margin-top: 50px;
+}
+
 .sertificates .slider .swiper-pagination-bullet {
   background: url("../img/sertificates/dots.svg") center no-repeat;
   width: 20px;
@@ -508,8 +562,11 @@ body {
   .sertificates {
     text-align: center;
   }
-  .sertificates .slider .swiper-pagination-bullet {
-    display: none;
+  .sertificates-info__title {
+    font-size: 27px;
+  }
+  .slider .swiper-pagination-bullet:focus {
+    outline: none;
   }
   .footer-news__form__input {
     width: 100%;
